@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="44117" started-at="2018-06-21T12:31:28Z" finished-at="2018-06-21T12:32:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="44117" started-at="2018-06-21T12:31:28Z" finished-at="2018-06-21T12:32:12Z">
+      <class name="TATOC_Test.TestCookieHandling">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TATOC_Test.TestCookieHandling@38203]" name="beforeClass" is-config="true" duration-ms="4980" started-at="2018-06-21T18:01:28Z" finished-at="2018-06-21T18:01:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TATOC_Test.TestCookieHandling@38203]" name="beforeMethod" is-config="true" duration-ms="16906" started-at="2018-06-21T18:01:33Z" finished-at="2018-06-21T18:01:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC_1_proceedWithoutGeneratingToken()[pri:0, instance:TATOC_Test.TestCookieHandling@38203]" name="TC_1_proceedWithoutGeneratingToken" duration-ms="349" started-at="2018-06-21T18:01:50Z" finished-at="2018-06-21T18:01:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_1_proceedWithoutGeneratingToken -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TATOC_Test.TestCookieHandling@38203]" name="beforeMethod" is-config="true" duration-ms="12612" started-at="2018-06-21T18:01:50Z" finished-at="2018-06-21T18:02:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC_2_proceedWithGeneratingTokenButWithoutCreatingCookie()[pri:0, instance:TATOC_Test.TestCookieHandling@38203]" name="TC_2_proceedWithGeneratingTokenButWithoutCreatingCookie" duration-ms="607" started-at="2018-06-21T18:02:03Z" finished-at="2018-06-21T18:02:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_2_proceedWithGeneratingTokenButWithoutCreatingCookie -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TATOC_Test.TestCookieHandling@38203]" name="beforeMethod" is-config="true" duration-ms="6497" started-at="2018-06-21T18:02:03Z" finished-at="2018-06-21T18:02:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC_3_proceedWithGeneratingTokenWithCreatingCookie()[pri:0, instance:TATOC_Test.TestCookieHandling@38203]" name="TC_3_proceedWithGeneratingTokenWithCreatingCookie" duration-ms="626" started-at="2018-06-21T18:02:10Z" finished-at="2018-06-21T18:02:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_3_proceedWithGeneratingTokenWithCreatingCookie -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TATOC_Test.TestCookieHandling@38203]" name="afterClass" is-config="true" duration-ms="1516" started-at="2018-06-21T18:02:11Z" finished-at="2018-06-21T18:02:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TATOC_Test.TestCookieHandling -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
