@@ -1,45 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="13" passed="13">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="44117" started-at="2018-06-21T12:31:28Z" finished-at="2018-06-21T12:32:12Z">
+  <suite name="Default suite" duration-ms="19676" started-at="2018-06-22T12:47:07Z" finished-at="2018-06-22T12:47:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="44117" started-at="2018-06-21T12:31:28Z" finished-at="2018-06-21T12:32:12Z">
-      <class name="TATOC_Test.TestCookieHandling">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TATOC_Test.TestCookieHandling@38203]" name="beforeClass" is-config="true" duration-ms="4980" started-at="2018-06-21T18:01:28Z" finished-at="2018-06-21T18:01:33Z">
+    <test name="Default test" duration-ms="19676" started-at="2018-06-22T12:47:07Z" finished-at="2018-06-22T12:47:26Z">
+      <class name="TATOC_Test.NewTest">
+        <test-method status="PASS" signature="start()[pri:0, instance:TATOC_Test.NewTest@78c730]" name="start" is-config="true" duration-ms="6675" started-at="2018-06-22T18:17:07Z" finished-at="2018-06-22T18:17:13Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TATOC_Test.TestCookieHandling@38203]" name="beforeMethod" is-config="true" duration-ms="16906" started-at="2018-06-21T18:01:33Z" finished-at="2018-06-21T18:01:50Z">
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="basicCourseOnClickOperation()[pri:0, instance:TATOC_Test.NewTest@78c730]" name="basicCourseOnClickOperation" duration-ms="318" started-at="2018-06-22T18:17:13Z" finished-at="2018-06-22T18:17:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TC_1_proceedWithoutGeneratingToken()[pri:0, instance:TATOC_Test.TestCookieHandling@38203]" name="TC_1_proceedWithoutGeneratingToken" duration-ms="349" started-at="2018-06-21T18:01:50Z" finished-at="2018-06-21T18:01:50Z">
+        </test-method> <!-- basicCourseOnClickOperation -->
+        <test-method status="PASS" signature="errorPageOnClickingGreenGrid()[pri:0, instance:TATOC_Test.NewTest@78c730]" name="errorPageOnClickingGreenGrid" duration-ms="274" started-at="2018-06-22T18:17:14Z" finished-at="2018-06-22T18:17:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_1_proceedWithoutGeneratingToken -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TATOC_Test.TestCookieHandling@38203]" name="beforeMethod" is-config="true" duration-ms="12612" started-at="2018-06-21T18:01:50Z" finished-at="2018-06-21T18:02:03Z">
+        </test-method> <!-- errorPageOnClickingGreenGrid -->
+        <test-method status="PASS" signature="framePageOnClickingRedGrid()[pri:0, instance:TATOC_Test.NewTest@78c730]" name="framePageOnClickingRedGrid" duration-ms="379" started-at="2018-06-22T18:17:14Z" finished-at="2018-06-22T18:17:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TC_2_proceedWithGeneratingTokenButWithoutCreatingCookie()[pri:0, instance:TATOC_Test.TestCookieHandling@38203]" name="TC_2_proceedWithGeneratingTokenButWithoutCreatingCookie" duration-ms="607" started-at="2018-06-21T18:02:03Z" finished-at="2018-06-21T18:02:03Z">
+        </test-method> <!-- framePageOnClickingRedGrid -->
+        <test-method status="PASS" signature="proceedIfBothBoxAreOfDifferentColour()[pri:0, instance:TATOC_Test.NewTest@78c730]" name="proceedIfBothBoxAreOfDifferentColour" duration-ms="613" started-at="2018-06-22T18:17:14Z" finished-at="2018-06-22T18:17:15Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_2_proceedWithGeneratingTokenButWithoutCreatingCookie -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TATOC_Test.TestCookieHandling@38203]" name="beforeMethod" is-config="true" duration-ms="6497" started-at="2018-06-21T18:02:03Z" finished-at="2018-06-21T18:02:10Z">
+        </test-method> <!-- proceedIfBothBoxAreOfDifferentColour -->
+        <test-method status="PASS" signature="proceedIfBothBoxAreOfSameColour()[pri:0, instance:TATOC_Test.NewTest@78c730]" name="proceedIfBothBoxAreOfSameColour" duration-ms="6152" started-at="2018-06-22T18:17:15Z" finished-at="2018-06-22T18:17:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TC_3_proceedWithGeneratingTokenWithCreatingCookie()[pri:0, instance:TATOC_Test.TestCookieHandling@38203]" name="TC_3_proceedWithGeneratingTokenWithCreatingCookie" duration-ms="626" started-at="2018-06-21T18:02:10Z" finished-at="2018-06-21T18:02:11Z">
+        </test-method> <!-- proceedIfBothBoxAreOfSameColour -->
+        <test-method status="PASS" signature="proceedIfNotDragedDragMe()[pri:0, instance:TATOC_Test.NewTest@78c730]" name="proceedIfNotDragedDragMe" duration-ms="273" started-at="2018-06-22T18:17:21Z" finished-at="2018-06-22T18:17:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_3_proceedWithGeneratingTokenWithCreatingCookie -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TATOC_Test.TestCookieHandling@38203]" name="afterClass" is-config="true" duration-ms="1516" started-at="2018-06-21T18:02:11Z" finished-at="2018-06-21T18:02:12Z">
+        </test-method> <!-- proceedIfNotDragedDragMe -->
+        <test-method status="PASS" signature="proceedIfDragedDragMe()[pri:0, instance:TATOC_Test.NewTest@78c730]" name="proceedIfDragedDragMe" duration-ms="424" started-at="2018-06-22T18:17:21Z" finished-at="2018-06-22T18:17:22Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- TATOC_Test.TestCookieHandling -->
+        </test-method> <!-- proceedIfDragedDragMe -->
+        <test-method status="PASS" signature="proceedingWithoutLaunchingPopUpWindow()[pri:0, instance:TATOC_Test.NewTest@78c730]" name="proceedingWithoutLaunchingPopUpWindow" duration-ms="226" started-at="2018-06-22T18:17:22Z" finished-at="2018-06-22T18:17:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proceedingWithoutLaunchingPopUpWindow -->
+        <test-method status="PASS" signature="proceedingWithLaunchingPopUpWindowButWithBlankText()[pri:0, instance:TATOC_Test.NewTest@78c730]" name="proceedingWithLaunchingPopUpWindowButWithBlankText" duration-ms="1736" started-at="2018-06-22T18:17:22Z" finished-at="2018-06-22T18:17:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proceedingWithLaunchingPopUpWindowButWithBlankText -->
+        <test-method status="PASS" signature="proceedingWithLaunchingPopUpWindowButWithoutBlankText()[pri:0, instance:TATOC_Test.NewTest@78c730]" name="proceedingWithLaunchingPopUpWindowButWithoutBlankText" duration-ms="1875" started-at="2018-06-22T18:17:24Z" finished-at="2018-06-22T18:17:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proceedingWithLaunchingPopUpWindowButWithoutBlankText -->
+        <test-method status="PASS" signature="proceedWithoutGeneratingToken()[pri:0, instance:TATOC_Test.NewTest@78c730]" name="proceedWithoutGeneratingToken" duration-ms="229" started-at="2018-06-22T18:17:26Z" finished-at="2018-06-22T18:17:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proceedWithoutGeneratingToken -->
+        <test-method status="PASS" signature="proceedWithGeneratingTokenButWithoutCreatingCookie()[pri:0, instance:TATOC_Test.NewTest@78c730]" name="proceedWithGeneratingTokenButWithoutCreatingCookie" duration-ms="132" started-at="2018-06-22T18:17:26Z" finished-at="2018-06-22T18:17:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proceedWithGeneratingTokenButWithoutCreatingCookie -->
+        <test-method status="PASS" signature="proceedWithGeneratingTokenAfterCreatingCookie()[pri:0, instance:TATOC_Test.NewTest@78c730]" name="proceedWithGeneratingTokenAfterCreatingCookie" duration-ms="319" started-at="2018-06-22T18:17:26Z" finished-at="2018-06-22T18:17:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proceedWithGeneratingTokenAfterCreatingCookie -->
+      </class> <!-- TATOC_Test.NewTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
